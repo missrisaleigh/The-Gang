@@ -25,8 +25,11 @@ h4{
 }
 .hero-banner{
 	background-color: #007FFF;
-	height:100vh;
+	height:80vh;
 	padding: 50px 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
 }
 .hero-banner h1{
 	color: white;
@@ -42,26 +45,27 @@ h4{
 	margin: 0;
 }
 .character1{
-	background: url(img/character1.png) no-repeat 0 0;
+	background: url(../img/character1.png) no-repeat 0 0;
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
-	position: absolute; top: 117px; right: 89px;
+	position: absolute; top: 10%; right: 5%;
+	transform: rotate(15deg);
 }
 .character2{
-	background: url(img/character2.png) no-repeat 0 0;
-	background-size: 100%;
+	background: url(../img/character2.png) no-repeat 0 0;
+	background-size: 80%;
 	width: 309px;
 	height: 371px;
-	position: absolute; top: 213px; right: 109px;
+	position: absolute; top: 213px; right: 150px;
 
 }
 .character3{
-	background: url(img/character3.png) no-repeat 0 0;
-	background-size: 100%;
+	background: url(../img/character3.png) no-repeat 0 0;
+	background-size: 60%;
 	width: 297px;	
 	height: 286px;
-	position: absolute; bottom: 74px; right: 277px;
+	position: absolute; bottom: 30px; right: 0px;
 
 }
 a.cta,
